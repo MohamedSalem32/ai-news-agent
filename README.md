@@ -1,5 +1,7 @@
 # Fast Reading (Digest & Focus)
 
+> **Context:** school team project (Advanced Deep Learning, ESPRIT). Each team member built one news agent; this repository is my agent, **AI-News-Agent-V**. The team repository is [Aethelios/ai-news-agent](https://github.com/Aethelios/ai-news-agent).
+
 CPU-friendly local news assistant with TF-IDF retrieval (default), cosine similarity, deterministic recency, and source credibility blending. Summaries try `sshleifer/distilbart-cnn-12-6` **if available**; otherwise a tiny extractive TF-IDF fallback (2 sentences, ≤ 40 words).
 
 ## Project Layout
